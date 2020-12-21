@@ -127,11 +127,24 @@ I tested it with parameters (alpha = 0, beta = 0, beta_increment_per_sampling
 However, when I tried prioritized memory replay (e.g. alpha = 0.6, beta = 0.4, beta_increment_per_sampling
 = 0.001), the average reward could never reach 13.
 
-## Reference paper
+## References
+### Paper
 - [DQN](http://files.davidqiu.com//research/nature14236.pdf)
 - [Double DQN](https://arxiv.org/abs/1509.06461)
 - [Dueling DQN](https://arxiv.org/abs/1511.06581)
 - [Prioritized memory replay](https://arxiv.org/abs/1511.05952)
+
+### Blog
+https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/prioritized-replay/ 
+
+https://danieltakeshi.github.io/2019/07/14/per/ 
+
+https://towardsdatascience.com/importance-sampling-introduction-e76b2c32e744 
+
+https://www.freecodecamp.org/news/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682/ 
+
+### Code
+https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/tree/master/contents/5.2_Prioritized_Replay_DQN
 
 
 
